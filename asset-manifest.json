@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.eafd9f35.css",
-    "main.js": "/static/js/main.28702fa5.js",
-    "static/js/787.e821e366.chunk.js": "/static/js/787.e821e366.chunk.js",
-    "index.html": "/index.html",
-    "main.eafd9f35.css.map": "/static/css/main.eafd9f35.css.map",
-    "main.28702fa5.js.map": "/static/js/main.28702fa5.js.map",
-    "787.e821e366.chunk.js.map": "/static/js/787.e821e366.chunk.js.map"
+    "main.css": "/anime-stream/static/css/main.eafd9f35.css",
+    "main.js": "/anime-stream/static/js/main.f48a31ed.js",
+    "static/js/787.e821e366.chunk.js": "/anime-stream/static/js/787.e821e366.chunk.js",
+    "index.html": "/anime-stream/index.html",
+    "main.eafd9f35.css.map": "/anime-stream/static/css/main.eafd9f35.css.map",
+    "main.f48a31ed.js.map": "/anime-stream/static/js/main.f48a31ed.js.map",
+    "787.e821e366.chunk.js.map": "/anime-stream/static/js/787.e821e366.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eafd9f35.css",
-    "static/js/main.28702fa5.js"
+    "static/js/main.f48a31ed.js"
   ]
 }

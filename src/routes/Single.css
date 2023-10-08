@@ -1,0 +1,49 @@
+.title{
+    color: green !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+.alt-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.purple{
+    color: #6900ff !important;
+}
+.orange{
+    color: orange;
+}
+.anime-single .ep{
+    text-decoration: none;
+    border: 1px solid black;
+    color: green;
+    box-shadow: 0px 0px 12px #18191b;
+    margin: 1% 1% 2% 1%;
+    padding: 1%;
+}
+.anime-single .ep:hover{
+    box-shadow: none;
+    color: orange;
+}
+.episode-list{
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+.anime-single{
+    box-shadow: 0px 0px 12px #18191b;
+    padding: 2%;
+}
+.inner-genre{
+    box-shadow: 0px 0px 12px #18191b;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+    color: green;
+}
+.inner-genre:hover{
+    color: orange;
+    cursor: pointer;
+    box-shadow: none;
+}

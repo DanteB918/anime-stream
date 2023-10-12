@@ -13,9 +13,9 @@ function App() {
         {/* <h1 className="text-center">Anime List</h1> */}
         <div className="container">
             <Routes>
-                <Route path="/" element={<Home url="https://api.consumet.org/anime/gogoanime/recent-episodes" title="Recent Releases" key="home" />} />
+                <Route path="/" element={<Home url="https://api.consumet.org/anime/gogoanime/recent-episodes?page=" title="Recent Releases" key="home" />} />
                 <Route path="/:page" element={<Home url="https://api.consumet.org/anime/gogoanime/recent-episodes?page=" title="Recent Releases" />} />
-                <Route path="/top-airing" element={<Home url="https://api.consumet.org/anime/gogoanime/top-airing" title="Top Airing" key="top-airing" />} />
+                <Route path="/top-airing" element={<Home url="https://api.consumet.org/anime/gogoanime/top-airing?page=" title="Top Airing" key="top-airing" />} />
                 <Route path="/top-airing/:page" element={<Home url="https://api.consumet.org/anime/gogoanime/top-airing?page=" title="Top Airing" />} />
                 {/* <Route path="/search/:search" element={<Home url="https://api.consumet.org/anime/gogoanime/" title="Search" />} /> */}
                 <Route path="/show/:id" element={<Single />} />

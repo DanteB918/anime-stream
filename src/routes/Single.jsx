@@ -46,7 +46,7 @@ function Single() {
                 <div className="genres mb-2">
                     Genres:
                     {Array.isArray(AllData.genres) ? AllData.genres.map((genre) => {
-                        return( <span className="inner-genre">{' ' + genre}</span>)
+                        return( <div className="inner-genre">{' ' + genre}</div>)
                     }) : ''}
                 </div>
                 {AllData.description}<br /><br />

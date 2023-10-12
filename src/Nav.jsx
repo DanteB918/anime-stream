@@ -18,7 +18,8 @@ function App() {
             <li className="nav-item">
                 <Link className="nav-link text-light" to="/top-airing" >Top Airing</Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* @todo , check if API supports genre search */}
+            {/* <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categories
             </a>
@@ -28,7 +29,7 @@ function App() {
                 <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            </li>
+            </li> */}
         </ul>
         <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -1,22 +1,22 @@
 
 import { Link } from "react-router-dom";
 function AnimeLoop(props) {
-    console.log(props.data);
     return (
-        <div id="animeList" className="row">
+        <div className="d-flex justify-content-center">
+        <div id="animeList" style={{maxWidth: '100%'}} className="row">
             {Array.isArray(props.data) ?
             props.data.map((anime) => {
                 return(
-                <div className="col-md-6 col-lg-4 show-box">
+                <div className="col-6 col-lg-4 show-box">
                     <Link to={'/show/' + anime.id}>
-                        <h2>{anime.title}</h2>
+                        <p className="title">{anime.title}</p>
                         <p class="ep">Episode: {anime.episodeNumber}</p>
                         <img src={anime.image}  class="w-100"/>
-                        <p>Rating: {anime.rating}</p>
                     </Link>
                 </div>
                 )
             }) : props.data}
+        </div>
         </div>
     );
 }
